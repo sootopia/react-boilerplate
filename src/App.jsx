@@ -1,9 +1,11 @@
-import './App.css';
+import GlobalStyles from './styles/GlobalStyles';
+import './index.css';
 
 function App() {
   return (
     <>
-      <h1>Hello, Vite!</h1>
+      <GlobalStyles />
+      <p className="text-2xl underline">Hello, React!</p>
     </>
   );
 }
